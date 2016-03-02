@@ -13,7 +13,11 @@ function sum(num_one, num_two) {
 // Q2
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
-function avg()
+function avg(x, y, z) {
+	var add = x + y + z;
+	var average = add / 3;
+	return average;
+}
 
 
 
