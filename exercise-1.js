@@ -36,6 +36,12 @@ function getLength(help) {
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
+function greaterThan(x, y) {
+	if (x < y) 
+	return true;
+	else x > y
+	return false;
+}
 
 
 
