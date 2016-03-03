@@ -35,11 +35,20 @@ function max(x, y){
 
 var vowels = ["a", "e", "i", "o", "u"];
 
-vowels.forEach (function isVowel(char) {
-//	if var char = vowels 
+function isVowel(char) {
+	if (char === vowels)
 		return true;
 	else return false;
-});
+}
+
+
+
+
+//vowels.forEach (function isVowel(char) {
+//	if var char = vowels 
+//		return true;
+//	else return false;
+//});
 
 
 //var vowels = ["a", "e", "i", "o", "u"];
@@ -67,9 +76,7 @@ function rovarspraket(phrase){
 // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
 
-function reverse(){
-    //...
-}
+function reverse()
 
 // ---------------------
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
