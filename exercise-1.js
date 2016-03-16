@@ -67,3 +67,13 @@ function greet(Name) {
 // strings. For example:
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
+
+function madlib("")
+
+
+//This
+
+
+
+
+
